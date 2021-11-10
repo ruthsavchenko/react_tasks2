@@ -1,0 +1,77 @@
+body {
+    background: #eaebec;
+    font-family: "Open Sans", sans-serif;
+    width: 100%;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.app {
+  display: flex;
+}
+
+.app > button {
+    margin: 20px auto;
+    width: 200px;
+    padding: 10px;
+    border: 2px solid rgb(33, 166, 175);
+    border-radius: 10px;
+    color: rgb(33, 166, 175);
+    background-color: transparent;
+    font-weight: 400;
+    font-size: 20px;
+    transition: .2s;
+} 
+
+.app > button:hover {
+    background-color: rgb(33, 166, 175);
+    color: white;
+    transition: .2s;
+    cursor: pointer;
+}
+
+.user-card {
+	width: 300px;
+	height: auto;
+	background:#fff;
+    padding: 20px;
+    margin: 20px;
+    box-sizing: content-box;
+    transition: .2s;
+}
+
+.user-card a {
+    color: rgb(33, 166, 175);
+    text-decoration: none;
+}
+
+.user-card a:hover {
+    color: rgb(33, 166, 175);
+    text-decoration: underline;
+}
+
+.user-card p {
+    margin: 10px 0;
+}
+
+.user-card > h2 {
+    text-align: center;
+    color: rgb(33, 166, 175);
+}
+
+.user-card__address {
+    border-top: 2px solid rgb(33, 166, 175);
+}
+
+.user-card__company {
+    border-top: 2px solid rgb(33, 166, 175);
+}
+
+.user-card:hover {
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.1);
+    transition: .2s;
+    transform: scale(1.03);
+}
