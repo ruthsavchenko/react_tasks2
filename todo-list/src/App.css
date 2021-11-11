@@ -1,0 +1,91 @@
+body {
+  text-align: center;
+  box-sizing: content-box;
+  margin: 30px auto;
+}
+
+.App {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px;
+}
+
+.todo {
+  width: 25%;
+  height: 80vh;
+  padding: 10px 30px;
+  background-color: rgb(223, 242, 255);
+}
+
+.inProgress {
+  width: 25%;
+  height: 80vh;
+  padding: 10px 30px;
+  background-color: rgb(223, 242, 255);
+}
+
+.done {
+  width: 25%;
+  height: 80vh;
+  padding: 10px 30px;
+  background-color: rgb(223, 242, 255);
+}
+
+.item-todo {
+  display: flex;
+  margin: 10px 0;
+  padding: 10px;
+  justify-content: space-between;
+  background-color: #fff;
+  border-radius: 10px;
+}
+
+form {
+  display: flex;
+}
+
+input {
+  width: 85%;
+  padding: 8px;
+  border-radius: 8px 0 0 8px;
+  border: none;
+  outline: none;
+}
+
+button {
+  width: 15%;
+  border-radius: 0 8px 8px 0;
+  border: none;
+  background-color: rgb(132, 200, 255);
+  color: white;
+  text-transform: uppercase;
+  font-weight: 650;
+}
+
+button:hover {
+  background-color: rgb(100, 172, 231);
+  cursor: pointer;
+}
+
+.emoji {
+  display: flex;
+}
+
+.todo-delete {
+  cursor: pointer;
+  margin: 0 2px;
+}
+
+.todo-in-progress {
+  margin: 0 2px;
+  cursor: pointer;
+}
+
+.todo-done {
+  margin: 0 2px;
+  cursor: pointer;
+}
+
+.strike {
+  text-decoration: line-through;
+}
