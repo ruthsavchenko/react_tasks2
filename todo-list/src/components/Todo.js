@@ -6,12 +6,12 @@ function Todo() {
     const { todos, moveToDone, removeTask, handleToggle, moveToInProgress } = useContext(TodoContext)
     return (
         <div className="todo">
-            <h2>Todo</h2>
+            <h2>Todo 📃</h2>
             <TodoForm />
             {todos.map((todo) => {
                 return (
                     <div key={todo.id} className="item-todo">
-                        <div className={todo.complete ? "item-text strike" : "item-text"}
+                        <div className="item-text"
                             onClick={() => handleToggle(todo.id)}>
                             {todo.task}
                         </div>

@@ -4,8 +4,6 @@ import { TodoContext } from './TodoProvider'
 function Done() {
     const { done, handleToggle, removeTaskFromDone } = useContext(TodoContext);
 
-
-    console.log(done)
     return (
         <div className="done">
             <h2>Done ✅</h2>

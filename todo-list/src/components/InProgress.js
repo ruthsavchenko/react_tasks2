@@ -10,7 +10,7 @@ function InProgress() {
             {inProgress.map((todo) => {
                 return (
                     <div key={todo.itemId} className="item-todo">
-                        <div className={todo.complete ? "item-text strike" : "item-text"}
+                        <div className="item-text"
                             onClick={() => handleToggle(todo.id)}>
                             {todo.itemTask}
                         </div>
